@@ -1,0 +1,26 @@
+[versions]
+kotlin = "1.9.22"
+gradle = "8.0.2"
+
+[plugins]
+#ktLint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktLint" }
+#detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+#gradleVersionUpdates = { id = "com.github.ben-manes.versions", version.ref = "gradleVersionUpdate" }
+#kotlinX-testResources = { id = "com.goncalossilva.resources", version.ref = "kotlinxTestResources" }
+multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+#nativeCocoapod = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+#android-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+#android-library = { id = "com.android.library", version.ref = "gradle" }
+#android-application = { id = "com.android.application", version.ref = "gradle" }
+#jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+#compose = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
+#kotlinX-serialization-plugin = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+#kmp-NativeCoroutines-plugin = { id = "com.rickclephas.kmp.nativecoroutines", version.ref = "kmpNativeCoroutines" }
+#sqlDelight-plugin = { id = "com.squareup.sqldelight", version.ref = "sqlDelight" }
+#buildKonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildKonfig" }
+#
+#googleServices-plugin = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+#
+#firebase-crashlytics-plugin = { id = "com.google.firebase.crashlytics", version.ref = "firebaseCrashlytics" }
+#firebase-appDistribution-plugin = { id = "com.google.firebase.appdistribution", version.ref = "firebaseAppDistribution" }
+#firebase-performance-plugin = { id = "com.google.firebase.firebase-perf", version.ref = "firebasePerformance" }
