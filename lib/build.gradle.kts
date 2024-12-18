@@ -28,12 +28,14 @@ var targetArch = when (osArch) {
     "aarch64" -> "arm64"
     else -> error("Unsupported arch: $osArch")
 }
-val group = "me.zakharov"
+
 val version = "0.7.9" // or any more recent version
 val target = "${targetOs}-${targetArch}"
 
 kotlin {
-    jvm()
+    jvm {
+        group = "me.zakharov"
+    }
     js {
         browser()
     }
