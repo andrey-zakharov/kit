@@ -1,6 +1,5 @@
-package kit
+package me.azakharov.kit
 
-import me.azakharov.kit.StackedState
 import me.azakharov.kit.push
 
 class StackedStateEdge<STATEKEY, EVENT>(val targetState: STATEKEY, val replace: Boolean = true, val weight: Int = 0) {

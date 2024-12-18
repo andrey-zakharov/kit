@@ -1,5 +1,4 @@
 package me.azakharov.kit
-import kit.StackedStateEdge
 
 //stack
 fun<E> MutableList<E>.pop() = removeLastOrNull()

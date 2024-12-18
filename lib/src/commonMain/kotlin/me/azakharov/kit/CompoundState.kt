@@ -1,7 +1,5 @@
 package me.azakharov.kit
 
-import kit.StackedStateMachine
-
 abstract class CompoundState<STATEKEY, E>(name: STATEKEY) : StackedState<STATEKEY, E>(name) {
     abstract val internalFsm: StackedStateMachine<STATEKEY, E>
     init {

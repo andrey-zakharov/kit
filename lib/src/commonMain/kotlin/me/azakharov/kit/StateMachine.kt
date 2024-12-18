@@ -1,7 +1,5 @@
 package me.azakharov.kit
 
-import kit.StackedStateEdge
-
 // v1
 fun <E> buildStateMachine(initialStateName: String, init: StateMachine<E, String>.() -> Unit): StateMachine<E, String> {
     val stateMachine = StateMachine<E, String>(initialStateName)

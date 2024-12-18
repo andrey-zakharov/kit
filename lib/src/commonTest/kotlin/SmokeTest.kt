@@ -12,7 +12,7 @@ var Vector2.y
     set(value) { this[1] = value }
 
 val Vector2.isZero: Boolean get() = x == 0f && y == 0f
-fun Vector2.toString() = "$x x $y"
+//fun Vector2.toString() = "$x x $y"
 
 operator fun Vector2.minus(other: Vector2): Vector2 = arrayOf( this.x - other.x, this.y - other.y )
 

@@ -1,9 +1,7 @@
-package kit
-import me.azakharov.kit.StackedState
+package me.azakharov.kit
 import me.azakharov.kit.current
 import me.azakharov.kit.pop
 import me.azakharov.kit.push
-import kotlin.collections.MutableList
 
 fun<STATEKEY, E> stackedStateMachine(
     initialState: STATEKEY,
